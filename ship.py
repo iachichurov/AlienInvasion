@@ -36,7 +36,11 @@ class Ship():
         self.rect.x = self.x
         self.rect.y = self.y
 
-        
+    def center_ship(self):
+        """Размещает корабль в центре нижней стороны"""
+        self.rect.midbottom = self.screen_rect.midbottom
+        self.x = float(self.rect.x)
+
 
     def blit_me(self):
         """Рисует корабль в текущей позиции"""
