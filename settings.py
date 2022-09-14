@@ -28,6 +28,8 @@ class Settings():
         self.bullet_speed_factor = 3.0
         self.alien_speed_factor = 0.6
         self.fleet_direction = 1  # 1 обозначает движение вправо, -1 движение влево
+        # Подсчет очков
+        self.alien_points = 50
 
     def increase_speed(self):
         """Увеличивает настройки скорости"""
