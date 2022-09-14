@@ -17,7 +17,7 @@ class Settings():
         self.bullet_color = (60, 60, 60)
         self.bullet_allowed = 5
         # Настройки пришельцев
-        self.fleet_drop_speed = 5
+        self.fleet_drop_speed = 8
         # Темп ускорения игры
         self.speedup_scale = 1.1
         # Темп роста стоимости пришельцев
