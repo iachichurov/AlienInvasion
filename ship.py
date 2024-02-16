@@ -14,7 +14,7 @@ class Ship(Sprite):
         self.rect = self.image.get_rect()
         # Каждый новый корабль появляется у нижнего края экрана.
         self.rect.midbottom = self.screen_rect.midbottom
-        # Сохранение вещественной координаты центра корабля
+        # Сохранение вещественной координаты центра корабля защитника
         self.x = float(self.rect.x)
         self.y = float(self.rect.y)
         # Флаги перемещения
